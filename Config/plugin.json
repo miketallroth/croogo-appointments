@@ -1,0 +1,16 @@
+{
+	"name": "Appointments",
+	"description": "Plugin for tracking appointments and providing a calendar view",
+
+	"author": "Mike Tallroth",
+	"authorEmail": "mike.tallroth@gmail.com",
+	"authorUrl": "http://goclearsky.com",
+
+	"dependencies": {
+		"plugins": [
+			"acl",
+			"extensions",
+			"details"
+		]
+	}
+}

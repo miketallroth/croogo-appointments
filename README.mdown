@@ -1,0 +1,52 @@
+# Appointments
+
+**Appointments** is a plugin to demonstrate the use of the [Details plugin](http://github.com/miketallroth/croogo-details). It does the required work to setup a custom content type, details table, and block. It is for use with the Croogo CMS. It is released under [MIT License](LICENSE.txt).
+
+It is powered by the [Croogo](http://croogo.org) CMS framework.
+
+## Requirements
+  * Croogo 2.0.0+
+
+## Installation
+
+#### Web based installer
+
+  * Go to Admin > Extensions > Plugins.
+  * Upload the file using the Upload link.
+
+#### Manual installation
+
+  * Extract the archive to the app/Plugin/Appointments directory.
+
+#### Installation using git
+
+  * TBD
+
+#### Activation
+
+  * Go to Admin > Extensions > Plugins.
+  * Make sure the Details plugin is installed and activated.
+  * Click on the activate icon to enable it.
+
+## Example
+
+  * For an implemented example, please check out my croogo-example-appointments plugin which uses the Details plugin for the data handling, and implements the non-data pieces.
+
+## Usage
+
+  * Creates the content type with pre-defined fields upon activation, so jump right to creating content.
+
+  * Create a new Appointment
+    * Give it a title, and a body, mark it Published.
+    * On Details tab, enter start / end date and location.
+    * Save the Node.
+  * Navigate to your custom type list, ie. http://my-site.com/appointment
+    * This type route will display a calendar which then displays your new Appointment.
+
+## Links
+
+  * TBD
+  * **Official website**: [https://github.com/miketallroth/croogo-appointments](https://github.com/miketallroth/croogo-appointments)
+  * **Downloads**: [https://github.com/miketallroth/croogo-appointments/archive/master.zip](https://github.com/miketallroth/croogo-appointments/archive/master.zip)
+  * **Issue Tracker**: [https://github.com/miketallroth/croogo-appointments/issues](https://github.com/miketallroth/croogo-appointments/issues)
+  * **Wiki**: [https://github.com/miketallroth/croogo-appointments/wiki](https://github.com/miketallroth/croogo-appointments/wiki)
