@@ -28,14 +28,9 @@ It is powered by the [Croogo](http://croogo.org) CMS framework.
   * Make sure the Details plugin is installed and activated.
   * Click on the activate icon to enable it.
 
-## Example
-
-  * For an implemented example, please check out my croogo-example-appointments plugin which uses the Details plugin for the data handling, and implements the non-data pieces.
-
 ## Usage
 
   * Creates the content type with pre-defined fields upon activation, so jump right to creating content.
-
   * Create a new Appointment
     * Give it a title, and a body, mark it Published.
     * On Details tab, enter start / end date and location.
